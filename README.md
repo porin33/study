@@ -25,3 +25,6 @@ Things you may want to cover:
 
 
 rake ridgepole:apply RAILS_ENV=development
+
+git config --global user.email example@example.com
+git config --global user.name name
