@@ -1,0 +1,2 @@
+class Kodama < ApplicationRecord
+end

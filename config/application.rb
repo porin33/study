@@ -16,5 +16,6 @@ module Environment
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
     config.hosts << "aa6aef89db524b06b78bfe46c2b490d6.vfs.cloud9.ap-northeast-1.amazonaws.com"
+    config.time_zone = 'Tokyo'
   end
 end

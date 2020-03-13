@@ -1,0 +1,42 @@
+users テーブル
+id
+name 表示名
+account  アカウント名 ログイン名
+email メールアドレス
+password パスワード（修正の余地あり）
+
+
+kodamas テーブル
+id
+body こだまの内容
+user_id こだまったユーザのID
+
+
+
+hashtagsテーブル
+id
+name ハッシュタグ名
+
+
+kodama_hashtagsテーブル
+id
+hashtag_id
+kodama_id
+
+
+reactionsテーブル
+id
+name
+icon
+
+
+kodama_reactionsテーブル
+id
+kodama_id
+reaction_id
+
+
+
+
+
+アプリ名 こだま
